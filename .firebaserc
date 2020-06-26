@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "fir-crudapp-853ac"
+  },
+  "targets": {
+    "fir-crudapp-853ac": {
+      "hosting": {
+        "Angular7": [
+          "fir-crudapp-853ac"
+        ]
+      }
+    }
+  }
+}

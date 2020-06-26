@@ -1,0 +1,15 @@
+<nav color="secondary">
+  <button class="btn" mat-button routerLink="/todo">To Do</button>
+  <button class="btn" mat-button routerLink="/customer">Customer</button>  
+  <button class="btn" mat-button routerLink="/employees">Employees</button>
+  <button class="btn" mat-button routerLink="/image">Images</button>
+</nav>
+<div class="jumbotron jumbtron-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
